@@ -1,0 +1,7 @@
+<ul>
+    <li><a href="http://www.unl.edu/">UNL</a></li>
+    <li><a href="<?php echo $this->basePath(); ?>"><?php echo $this->placeholder('Site Title'); ?></a></li>
+    <?php foreach ($this->pages as $i => $page) { ?>
+    <li><?php echo $this->navigation()->breadcrumbs()->htmlify($page); ?></li>
+    <?php } ?>
+</ul>

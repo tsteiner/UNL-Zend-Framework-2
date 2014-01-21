@@ -18,6 +18,7 @@ class Module
                   ->get('viewRenderer');
 
         $wdnViewHelper->setTemplate($config['unl']['wdntemplate']['template']);
+        $wdnViewHelper->setOptions($config['unl']['wdntemplate']['options']);
         $wdnViewHelper->setBodyClasses(array());
         $view->placeholder('Site Title')->set('Zend Framework 2 Site');
 

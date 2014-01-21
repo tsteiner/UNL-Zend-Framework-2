@@ -40,6 +40,9 @@ return array(
     'unl' => array(
         'wdntemplate' => array(
             'template' => 'Local',
+            'options'  => array(
+                'version' => '4',
+            ),
         ),
     ),
 );
